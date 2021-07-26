@@ -1,0 +1,8 @@
+#Install packages
+install.packages("googlesheets4")
+
+#Import packages into library
+library(googlesheets4)
+
+gsheet <- read_sheet("")
+print(gsheet)
